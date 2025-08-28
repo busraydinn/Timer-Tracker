@@ -50,9 +50,6 @@ Tarayıcıda http://localhost:5173 adresinde açılır.
 - Kullanıcı temaları (gece/gündüz modu) eklenebilir.
 - LocalStorage ile son zaman kaydedilip devam ettirilebilir.
 - Animasyon ve progress bar ile görsellik artırılabilir.
-## 🚀 Canlı Demo
 
-Projeyi canlı olarak denemek için aşağıdaki linke tıklayabilirsiniz:  
-[https://senin-live-demo-linkin.com](https://senin-live-demo-linkin.com)
 
 ---
