@@ -1,12 +1,58 @@
-# React + Vite
+# ⏱️ TimerTracker - React Timer Uygulaması (Vite ile)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Proje Hakkında
 
-Currently, two official plugins are available:
+**Timer Tracker**, React ve Vite kullanılarak geliştirilmiş basit ve şık bir zamanlayıcı uygulamasıdır.Saat, dakika ve saniyeyi takip eder, kullanıcının zamanı başlatmasına, durdurmasına ve sıfırlamasına olanak sağlar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Zamanı başlatma  
+- Zamanı durdurma  
+- Zamanı sıfırlama  
 
-## Expanding the ESLint configuration
+Kullanıcı dostu ve sade tasarımı ile temel React hook’larının (`useState`, `useRef`, `useEffect`) nasıl kullanılacağını göstermektedir.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Özellikler
+
+- **Saat, dakika, saniye** olarak zamanı takip eder.  
+- Zaman formatı `HH:MM:SS` şeklinde 2 haneli gösterim.  
+- `Başlat`, `Durdur`, `Sıfırla` butonları ile kontrol sağlanır.  
+- React hook’ları ile state ve yan etkiler yönetilir.  
+- Timer çalışırken arka planda `setInterval` kullanır ve düzgün temizleme yapılır.  
+
+## ⚙️ Kurulum ve Çalıştırma
+
+1. Depoyu klonla veya indir:
+
+```bash
+git clone https://github.com/busraydinn/Timer-Tracker.git
+cd timer-app
+```
+2. Gerekli bağımlılıkları yükle
+```
+npm install
+```
+3. Uygulamayı Başlat
+```
+npm run dev
+```
+Tarayıcıda http://localhost:5173 adresinde açılır.
+## 🗂️ Proje Dosya Yapısı
+```
+/src
+  ├─ Timer.jsx
+  ├─ main.jsx         # React giriş noktası
+  └─ styles/
+       ├─ Timer.css
+```
+## 🔧 İyileştirme Önerileri (Geliştirme için)
+
+- Geriye sayım (countdown) modu eklenebilir.
+- Zaman dolunca sesli uyarı veya bildirim eklenebilir.
+- Kullanıcı temaları (gece/gündüz modu) eklenebilir.
+- LocalStorage ile son zaman kaydedilip devam ettirilebilir.
+- Animasyon ve progress bar ile görsellik artırılabilir.
+## 🚀 Canlı Demo
+
+Projeyi canlı olarak denemek için aşağıdaki linke tıklayabilirsiniz:  
+[https://senin-live-demo-linkin.com](https://senin-live-demo-linkin.com)
+
+---
