@@ -52,4 +52,7 @@ Tarayıcıda http://localhost:5173 adresinde açılır.
 - Animasyon ve progress bar ile görsellik artırılabilir.
 
 
----
+## 🚀 Canlı Demo
+
+Projeyi canlı olarak denemek için:  
+[https://busraydinn.github.io/Timer-Tracker](https://busraydinn.github.io/Timer-Tracker)
